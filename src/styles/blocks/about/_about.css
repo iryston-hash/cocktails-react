@@ -1,0 +1,12 @@
+.about-section {
+  width: var(--smallWidth);
+  max-width: var(--maxWidth);
+  margin: 0 auto;
+  border-bottom: 3px solid black;
+}
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}

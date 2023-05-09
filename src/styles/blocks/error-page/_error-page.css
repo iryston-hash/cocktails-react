@@ -1,0 +1,10 @@
+.error-page {
+  display: flex;
+  justify-content: center;
+}
+.error-container {
+  text-align: center;
+  text-transform: capitalize;
+  border: 5px solid black;
+  padding: 2rem;
+}

@@ -1,0 +1,68 @@
+.btn,
+.btn-white,
+.btn-primary {
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  color: var(--primaryColor);
+  border: 2px solid var(--primaryColor);
+  padding: 0.45rem 0.8rem;
+  display: inline-block;
+  transition: var(--mainTransition);
+  cursor: pointer;
+  font-size: 0.8rem;
+  background: transparent;
+  border-radius: var(--mainBorderRadius);
+  display: inline-block;
+}
+.btn:hover {
+  background: var(--primaryColor);
+  color: var(--mainWhite);
+}
+.btn-white {
+  background: transparent;
+  color: var(--mainWhite);
+  border-color: var(--mainWhite);
+}
+.btn-white:hover {
+  background: var(--mainWhite);
+  color: rgba(255, 166, 0, 0.42);
+}
+.btn-primary {
+  background: var(--mainBlack);
+  color: var(--mainWhite);
+  border-color: transparent;
+}
+.btn-primary:hover {
+  background: var(--primaryLightColor);
+  color: var(--primaryColor);
+}
+.btn-block {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  box-shadow: var(--lightShadow);
+  text-align: center;
+}
+.btn-more {
+  padding: 0.25rem 0.4rem;
+}
+.btn-more:hover {
+  background: rgba(255, 166, 0, 0.42);
+  border-color: black;
+  color: black;
+}
+.btn:focus {
+  outline: rgb(221, 0, 255) solid;
+}
+.btn-error {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  border-radius: 0;
+  background: white;
+  color: black;
+}
+.btn-error:hover {
+  background: black;
+  color: white;
+}
